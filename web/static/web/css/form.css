@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body{
+  width:100%;
+  background: #ABBFD1;
+  margin: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.first_box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_box img{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  display: inline;
+}
+
+.first_box h1{
+  margin-left: 10px;
+  color:black;
+  font-size: 18px;
+  display: inline;
+  font-weight: 500;
+}
+
+.second_box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second_box h1{
+  color:black;
+  font-size: 18px;
+  display: inline;
+  font-weight: 500;
+}
+
+.second_box p{
+  font-size: 13px;
+  color:black;
+  font-weight: 300;
+}
+
+hr{
+  border: 1px solid #A4B8C8;
+  width: 100%;
+}
+
+form{
+  text-align: center;
+}
+
+form > input{
+  border:0;
+  height: 30px;
+  color:black;
+}
+
+input::placeholder{
+  color:gray;
+  padding: 3px;
+}
+
+#name{
+  width:300px;
+}
+
+body > form > select{
+  width: 80px;
+  height: 30px;
+  border: 0;
+  background: #FFFFFF;
+}
+
+#phone_number_2{
+  width: 105px;
+}
+
+#phone_number_3{
+  width: 105px;
+}
+
+label{
+  color:gray;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+label a{
+  color:black;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+button{
+  background: #4D91FF;
+  width: 300px;
+  height: 50px;
+  color:white;
+  font-size:18px;
+  font-weight: 500;
+  border:0;
+}
+
+#agreement{
+  border: 1px solid white;
+  border-radius: 2px;
+  background: white;
+  padding:0;
+  width: 13px;
+  height: 13px;
+}
+
+#agreement:checked{
+  background-image: url('../img/checked.png');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

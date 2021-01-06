@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+  height: auto;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+#first_section{
+  background-image: url('../img/ai.png');
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.text_box{
+  padding-top:100px;
+  text-align: center;
+}
+
+.text_box h1{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.text_box h1:nth-child(1){
+  color:white;
+}
+
+.text_box h1:nth-child(2){
+  background: linear-gradient(to right, #ded300, rgba(170, 170, 50, 50));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_box h1:nth-child(3){
+  color:white;
+}
+
+.text_box p{
+  color:white;
+  font-size:25px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+.data_box{
+  line-height: 50px;
+}
+
+.data_box h1{
+  font-size: 30px;
+  color:white;
+  font-weight: 300;
+}
+
+.data_box span{
+  font-size: 35px;
+  font-weight: 500;
+  background: linear-gradient(to right, #ded300, rgba(170, 170, 50, 50));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ai_box{
+  margin: 0 auto;
+  width: 700px;
+}
+
+#first_section > div.ai_box > div:nth-child(1){
+  background: red;
+  padding: 10px 0px;
+}
+
+#first_section > div.ai_box > div:nth-child(1) > h1{
+  font-size: 25px;
+  color:white;
+}
+
+#first_section > div.ai_box > div:nth-child(2){
+  background: white;
+}
+
+.bar_box{
+  width: 100%;
+}
+
+.bar_box h1{
+  color:black;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+.progs{
+  width: 80%;
+  height: 30px;
+  background: red;
+  color:white;
+  margin: 0 auto;
+  line-height: 30px;
+  border-radius: 10px;
+  border:3px solid red;
+}
+
+.form_box{
+  width: 700px;
+  margin: 0 auto;
+  display: none;
+}
+
+.form_box h1{
+  line-height: 40px;
+}
+
+.form_box h1:nth-child(1){
+  color:white;
+  font-size: 30px;
+  font-weight: 300px;
+}
+
+.form_box h1:nth-child(2){
+  font-size:30px;
+  font-weight: 500;
+  background: linear-gradient(to right, #ded300, rgba(170, 170, 50, 50));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form_box form{
+  background: #A80305;
+  border-radius: 10px;
+}
+
+.form_box form select{
+  border:2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  font-size:20px;
+}
+
+.form_box form input{
+  border:2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  color:black;
+  font-size:20px;
+  width: 150px;
+}
+
+#name{
+  width: 300px;
+}
+
+.form_box form input::placeholder{
+  color:#dbdbdb;
+}
+
+#agreement{
+  border: 2px solid white;
+  border-radius: 2px;
+  padding:0;
+  width: 13px;
+  height: 13px;
+}
+
+#first_section > div.form_box > form > label, .form_box form lable input a{
+  color:white;
+}
+
+#first_section > div.form_box > form > button{
+  border: 0;
+  color:white;
+  font-size: 18px;
+  font-weight: 500;
+  background: #2465ff;
+  width: 180px;
+  height: 60px;
+}
+
+#second_section{
+  background: #A80305;
+  width: 100%;
+  text-align:center;
+}
+
+#second_section img{
+  margin: 0 auto;
+}
+
+#third_section{
+  width: 100%;
+  text-align: center;
+  background: #dbdbdb;
+}
+
+#third_section h1, #third_section a h1,  #third_section a p {
+  line-height: 20px;
+  color:black;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#agreement:checked{
+  background-image: url('../img/checked.png');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media all and (min-width:300px) and (max-width:500px) {
+
+  #first_section{
+    background-size: cover;
+    background-repeat: repeat;
+    padding:0;
+    margin: 0;
+  }
+
+  .text_box h1{
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .text_box p{
+    font-size: 18px;
+  }
+
+  .form_box{
+    width: 100%;
+  }
+
+  .data_box h1, .data_box span{
+    font-size: 25px;
+  }
+
+  .ai_box{
+    width: 100%;
+  }
+
+  .ai_box div:nth-child(1) h1{
+    font-size: 25px;
+  }
+
+  .bar_box h1{
+    font-size: 18px;
+  }
+
+  .form_box h1{
+    font-size: 25px;
+  }
+
+  .form_box form input{
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    font-size: 18px;
+  }
+
+  #name{
+    width: 200px;
+  }
+
+  .form_box form input::placeholder{
+    padding: 0;
+    margin: 0;
+  }
+
+  .form_box form select{
+    width: 100px;
+    height: 40px;
+    padding: 3px;
+    font-size: 18px;
+  }
+
+  #second_section img{
+    width: 100%;
+  }
+
+  #agreement{
+    border: 2px solid white;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+  }
+
+}
+
+@media all and (max-width:300px) {
+
+}
