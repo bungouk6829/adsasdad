@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+  // Taboola Pixel Code
+  function input_db(){
+    _tfa.push({notify: 'event', name: 'lead', id: 1357718});
+    document.write("<noscript><img src='https://trc.taboola.com/1357718/log/3/unip?en=lead'width='0' height='0' style='display:none'/></noscript>");
+  }
+
   var random = Math.random()
   var min_num = Math.floor(random * 100000 + 2958592)
   var max_num = Math.floor(random * 1000 + min_num)
@@ -80,5 +86,6 @@ $(document).ready(function(){
       $('.ai_box').css('display','none');
       $('.form_box').css('display','block');
     }, 5000);
+
 
 });
