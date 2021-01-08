@@ -1,17 +1,12 @@
 
   //news.html <form> 유효성 검사
   function validate() {
-         var re1 = /^[가-힣]{1,10}$/;
          var re2 = /^[0-9]{3,4}$/;
          var re3 = /^[0-9]{4}$/;
 
-         var name = document.getElementById("name");
          var phone_number_2 = document.getElementById("phone_number_2");
          var phone_number_3 = document.getElementById("phone_number_3");
 
-         if(!check(re1,name,"이름을 올바르게 입력해주세요.\n(한글만 입력가능합니다.)")) {
-             return false;
-         }
          if(!check(re2,phone_number_2,"전화번를 올바르게 입력해주세요.\n('-'기호는 입력하지 않습니다.)")) {
              return false;
          }

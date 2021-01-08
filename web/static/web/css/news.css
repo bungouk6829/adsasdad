@@ -115,7 +115,7 @@ input::placeholder{
   font-size: 35px;
 }
 
-.input_box form input:nth-child(2){
+.input_box form input:nth-child(1){
   width: 500px;
   height: 30px;
   color:black;
@@ -129,8 +129,7 @@ input::placeholder{
   display: inline;
 }
 
-#second_section > div.input_box > form > input[type=text]:nth-child(6),
-#second_section > div.input_box > form > input[type=text]:nth-child(7){
+#phone_number_2,#phone_number_3{
   height: 30px;
   width: 150px;
   color:black;
@@ -337,7 +336,7 @@ input::placeholder{
     margin: 0 auto;
   }
 
-  .input_box form input:nth-child(2){
+  .input_box form input:nth-child(1){
     width: 90%;
     height: 50px;
   }
@@ -347,8 +346,7 @@ input::placeholder{
     height: 50px;
   }
 
-  #second_section > div.input_box > form > input[type=text]:nth-child(6),
-  #second_section > div.input_box > form > input[type=text]:nth-child(7){
+  #phone_number_2,#phone_number_3{
     width: 30%;
     height: 50px;
   }

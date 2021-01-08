@@ -3,14 +3,14 @@ from .models import *
 
 class Information_admin_list(admin.ModelAdmin):
     list_display = (
-        'name',
+        'pk',
         'phone_number',
         'call_attr',
         'check_call',
         'create_at'
     )
     list_display_links = (
-        'name',
+        'pk',
         'phone_number',
     )
 

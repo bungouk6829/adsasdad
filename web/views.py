@@ -63,7 +63,6 @@ def new_information(request):
             if check_bad_call(number):
                 check_param = check_pre_call(number)
                 Information.objects.create(
-                    name = request.POST['name'],
                     phone_number = number,
                     check_call = check_param
                 )
